@@ -51,6 +51,7 @@ dev = [
 [tool.pytest.ini_options]
 addopts = "-v --doctest-modules --ignore=benchmark --doctest-glob=README.md"
 log_level = "INFO"
+xfail_strict = true
 
 [tool.ruff]
 line-length = 99
